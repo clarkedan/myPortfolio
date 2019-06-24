@@ -1,0 +1,20 @@
+.myNav{
+    border-bottom: solid 2px $orange;
+    padding: 15px 15px;
+}
+.myNav__left h5{
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS';
+    color: $blue;
+    letter-spacing: 1px;
+}
+.myNav__right h5{
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS';
+    color: $purple;
+    letter-spacing: 1px;
+}
+.myNav__right{
+    display: flex;
+    justify-content: flex-end;
+}
