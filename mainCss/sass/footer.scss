@@ -1,26 +1,23 @@
-.myNav{
+.myFooter{
     background-color: $white;
-    border-bottom: solid 2px $orange;
+    border-top: solid 2px $orange;
     padding: 15px 15px;
-    position: fixed;
-    z-index: 1;
-    width: 100%;
 }
-.myNavLeft h6{
+.myFooterLeft h6{
     margin-bottom: 0px;
     font-family: 'Trebuchet MS';
     color: $blue;
 }
-.myNavRight h6{
+.myFooterRight h6{
     margin-bottom: 0px;
     font-family: 'Trebuchet MS';
     color: $teal;
 }
-.myNavRight{
+.myFooterRight{
     display: flex;
     justify-content: flex-end;
 }
-.myNavLeftPortfolio{
+.myFooterLeftPortfolio{
     color: $purple;
     font-weight: bold;
 }

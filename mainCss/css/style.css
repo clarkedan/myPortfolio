@@ -11,23 +11,79 @@ html, body {
   background-color: #FFFDFA; }
 
 .myNav {
+  background-color: #FFFDFA;
   border-bottom: solid 2px #F0CA67;
-  padding: 15px 15px; }
+  padding: 15px 15px;
+  position: fixed;
+  z-index: 1;
+  width: 100%; }
 
-.myNav__left h5 {
+.myNavLeft h6 {
   margin-bottom: 0px;
   font-family: 'Trebuchet MS';
-  color: #376A8D;
-  letter-spacing: 1px; }
+  color: #376A8D; }
 
-.myNav__right h5 {
+.myNavRight h6 {
   margin-bottom: 0px;
   font-family: 'Trebuchet MS';
-  color: #A487AE;
-  letter-spacing: 1px; }
+  color: #5F9BA1; }
 
-.myNav__right {
+.myNavRight {
   display: flex;
   justify-content: flex-end; }
+
+.myNavLeftPortfolio {
+  color: #A487AE;
+  font-weight: bold; }
+
+.galleryOne {
+  display: flex;
+  align-items: center;
+  padding: 80px 0px 25px 0px; }
+
+.galleryThumbs img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; }
+
+.galleryThumbs h5 {
+  font-family: poppins;
+  color: #376A8D;
+  font-weight: 300; }
+
+.galleryThumbs h6 {
+  font-family: poppins;
+  font-weight: 600;
+  color: #A487AE;
+  letter-spacing: 1px;
+  margin-bottom: 0px; }
+
+.galleryTwo {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 25px 0px; }
+
+.myFooter {
+  background-color: #FFFDFA;
+  border-top: solid 2px #F0CA67;
+  padding: 15px 15px; }
+
+.myFooterLeft h6 {
+  margin-bottom: 0px;
+  font-family: 'Trebuchet MS';
+  color: #376A8D; }
+
+.myFooterRight h6 {
+  margin-bottom: 0px;
+  font-family: 'Trebuchet MS';
+  color: #5F9BA1; }
+
+.myFooterRight {
+  display: flex;
+  justify-content: flex-end; }
+
+.myFooterLeftPortfolio {
+  color: #A487AE;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
