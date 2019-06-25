@@ -88,18 +88,31 @@ html, body {
   font-weight: bold; }
 
 .modalAbout {
-  height: 500px;
-  background-color: #376A8D; }
+  background-color: #FFFDFA; }
 
-.aboutHeader h5 {
-  color: #FFFDFA; }
+.aboutHeader {
+  border-bottom: solid 2px #F0CA67; }
+
+.aboutHeader h4 {
+  color: #5F9BA1;
+  font-family: poppins;
+  font-weight: 400;
+  letter-spacing: 1px; }
 
 .close {
   text-shadow: none;
   opacity: 1;
-  color: #F0CA67; }
+  color: #A487AE;
+  font-size: 2rem; }
 
 .close:hover {
-  color: #F0CA67; }
+  color: #A487AE; }
+
+.aboutBody h6 {
+  color: #376A8D; }
+
+.modal-backdrop {
+  opacity: .95 !important;
+  background-color: #0f1e29; }
 
 /*# sourceMappingURL=style.css.map */
