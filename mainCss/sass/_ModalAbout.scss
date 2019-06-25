@@ -1,0 +1,16 @@
+.modalAbout{
+    height: 500px;
+    background-color: $blue;
+    // border: solid 3px $orange;
+}
+.aboutHeader h5{
+    color: $white;
+}
+.close{
+    text-shadow: none;
+    opacity: 1;
+    color: $orange;
+}
+.close:hover{
+    color: $orange;
+}

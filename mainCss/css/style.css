@@ -26,7 +26,8 @@ html, body {
 .myNavRight h6 {
   margin-bottom: 0px;
   font-family: 'Trebuchet MS';
-  color: #5F9BA1; }
+  color: #5F9BA1;
+  cursor: pointer; }
 
 .myNavRight {
   display: flex;
@@ -85,5 +86,20 @@ html, body {
 .myFooterLeftPortfolio {
   color: #A487AE;
   font-weight: bold; }
+
+.modalAbout {
+  height: 500px;
+  background-color: #376A8D; }
+
+.aboutHeader h5 {
+  color: #FFFDFA; }
+
+.close {
+  text-shadow: none;
+  opacity: 1;
+  color: #F0CA67; }
+
+.close:hover {
+  color: #F0CA67; }
 
 /*# sourceMappingURL=style.css.map */
