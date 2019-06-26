@@ -45,7 +45,8 @@ html, body {
 .galleryThumbs img {
   width: 100%;
   height: auto;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  cursor: pointer; }
 
 .galleryThumbs h5 {
   font-family: poppins;
@@ -87,13 +88,13 @@ html, body {
   color: #A487AE;
   font-weight: bold; }
 
-.modalAbout {
+.modalGallery {
   background-color: #FFFDFA; }
 
-.aboutHeader {
+.galleryHeader {
   border-bottom: solid 2px #F0CA67; }
 
-.aboutHeader h4 {
+.galleryHeader h4 {
   color: #5F9BA1;
   font-family: poppins;
   font-weight: 400;
@@ -108,11 +109,18 @@ html, body {
 .close:hover {
   color: #A487AE; }
 
-.aboutBody h6 {
+.galleryBody h6 {
   color: #376A8D; }
 
 .modal-backdrop {
   opacity: .95 !important;
   background-color: #0f1e29; }
+
+.galleryImage {
+  padding: 0px 15px 15px; }
+
+.galleryImage img {
+  width: 100%;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

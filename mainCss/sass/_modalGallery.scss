@@ -1,35 +1,37 @@
-.modalAbout {
+.modalGallery {
     background-color: $white;
     // border: solid 3px $orange;
 }
-
-.aboutHeader {
+.galleryHeader {
     border-bottom: solid 2px $orange;
 }
-
-.aboutHeader h4 {
+.galleryHeader h4 {
     color: $teal;
     font-family: poppins;
     font-weight: 400;
     letter-spacing: 1px;
 }
-
 .close {
     text-shadow: none;
     opacity: 1;
     color: $purple;
     font-size: 2rem;
 }
-
 .close:hover {
     color: $purple;
 }
-
-.aboutBody h6 {
+.galleryBody h6 {
     color: $blue;
 }
-
 .modal-backdrop {
     opacity: .95 !important;
     background-color: #0f1e29;
+    // background-color: #1e1820;
+}
+.galleryImage{
+    padding: 0px 15px 15px;
+}
+.galleryImage img{
+    width: 100%;
+    height: auto;
 }
