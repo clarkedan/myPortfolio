@@ -1,8 +1,8 @@
 .modalGallery {
     background-color: $white;
-    // border: solid 3px $orange;
 }
 .galleryHeader {
+    background-color: #f8f4ed;
     border-bottom: solid 3px $orange;
 }
 .galleryHeader h4 {
@@ -10,6 +10,7 @@
     font-family: poppins;
     font-weight: 400;
     letter-spacing: 1px;
+    
 }
 .close {
     text-shadow: none;
