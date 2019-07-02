@@ -12,33 +12,36 @@ html, body {
 
 .myNav {
   background-color: #FFFDFA;
-  border-bottom: solid 2px #F0CA67;
+  border-bottom: solid 4px #F0CA67;
   padding: 20px 15px;
   position: fixed;
-  z-index: 1;
-  width: 100%; }
+  z-index: 1; }
 
-.navbar {
-  max-width: 1200px; }
+.navBar {
+  max-width: 1300px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
 
-.myNavLeft h6 {
+.navBarLeft h4 {
   margin-bottom: 0px;
-  font-family: 'Trebuchet MS';
-  color: #376A8D; }
+  font-family: 'Oswald';
+  color: #376A8D;
+  font-weight: 500;
+  letter-spacing: 1px; }
 
-.myNavRight h6 {
+.navBarRight h4 {
   margin-bottom: 0px;
-  font-family: 'Trebuchet MS';
+  font-family: 'Oswald';
   color: #5F9BA1;
+  font-weight: 500;
+  letter-spacing: 1px;
   cursor: pointer; }
 
-.myNavRight {
-  display: flex;
-  justify-content: flex-end; }
-
-.myNavLeftPortfolio {
-  color: #A487AE;
-  font-weight: bold; }
+.navBarLeftPortfolio {
+  color: #A487AE; }
 
 .galleryContain {
   max-width: 1300px; }
@@ -71,43 +74,50 @@ html, body {
   align-items: center;
   padding: 0px 0px 25px 0px; }
 
-.myFooter {
+.myFooterContain {
   background-color: #FFFDFA;
-  border-top: solid 2px #F0CA67;
+  border-top: solid 4px #F0CA67;
   padding: 20px 15px; }
 
-.myFooterLeft h6 {
-  margin-bottom: 0px;
-  font-family: 'Trebuchet MS';
-  color: #5F9BA1; }
-
-.myFooterRight h6 {
-  margin-bottom: 0px;
-  font-family: 'Trebuchet MS';
-  color: #5F9BA1; }
+.myFooter {
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0px 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
 
 .myFooterRight {
-  display: flex;
-  justify-content: flex-end; }
-
-.myFooterLeftPortfolio {
-  color: #A487AE;
-  font-weight: bold; }
-
-.rightColumn {
   text-align: right;
   display: flex;
   flex-direction: column; }
 
-.footerContact {
-  margin-bottom: 10px; }
+.myFooterLeft {
+  display: flex; }
 
-.footerContact h6 {
-  font-weight: bold;
+.myFooterLeft img {
+  height: 35px;
+  margin-right: 15px;
+  cursor: pointer; }
+
+.footerContact h4 {
+  color: #5F9BA1;
+  font-family: oswald;
+  font-weight: 500; }
+
+.footerContact {
+  margin-bottom: 10px;
   letter-spacing: 1px; }
 
-.footerPhone {
-  margin-bottom: 1px; }
+.footerPhone h5 {
+  color: #376A8D;
+  font-family: poppins;
+  letter-spacing: 1px; }
+
+.footerEmail h5 {
+  color: #A487AE;
+  font-family: poppins;
+  letter-spacing: 1px; }
 
 .modalGallery {
   background-color: #FFFDFA; }

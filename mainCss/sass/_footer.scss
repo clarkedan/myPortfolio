@@ -1,40 +1,86 @@
-.myFooter{
+// .myFooter{
+//     background-color: $white;
+//     border-top: solid 4px $orange;
+//     padding: 20px 15px;
+// }
+// .myFooterLeft h6{
+//     margin-bottom: 0px;
+//     font-family: 'Trebuchet MS';
+//     color: $teal;
+// }
+// .myFooterRight h6{
+//     margin-bottom: 0px;
+//     font-family: 'Trebuchet MS';
+//     color: $teal;
+// }
+// .myFooterRight{
+//     display: flex;
+//     justify-content: flex-end;
+
+// }
+// .myFooterLeftPortfolio{
+//     color: $purple;
+//     font-weight: bold;
+// }
+// .rightColumn{
+//     text-align: right;
+//     display: flex;
+//     flex-direction: column;
+// }
+// .footerContact{
+//     margin-bottom: 10px;
+// }
+// .footerContact h6{
+//     font-weight: bold;
+//     letter-spacing: 1px;
+//     // border-bottom: solid 2px $purple;
+// }
+// .footerPhone{
+//     margin-bottom: 1px;
+// }
+
+.myFooterContain{
     background-color: $white;
-    border-top: solid 2px $orange;
+    border-top: solid 4px $orange;
     padding: 20px 15px;
 }
-.myFooterLeft h6{
-    margin-bottom: 0px;
-    font-family: 'Trebuchet MS';
-    color: $teal;
-}
-.myFooterRight h6{
-    margin-bottom: 0px;
-    font-family: 'Trebuchet MS';
-    color: $teal;
+.myFooter{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 0px 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 .myFooterRight{
-    display: flex;
-    justify-content: flex-end;
-
-}
-.myFooterLeftPortfolio{
-    color: $purple;
-    font-weight: bold;
-}
-.rightColumn{
     text-align: right;
     display: flex;
     flex-direction: column;
 }
+.myFooterLeft{
+    display: flex;
+}
+.myFooterLeft img{
+    height: 35px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.footerContact h4{
+    color: $teal;
+    font-family: oswald;
+    font-weight: 500;
+}
 .footerContact{
     margin-bottom: 10px;
-}
-.footerContact h6{
-    font-weight: bold;
     letter-spacing: 1px;
-    // border-bottom: solid 2px $purple;
 }
-.footerPhone{
-    margin-bottom: 1px;
+.footerPhone h5{
+    color: $blue;
+    font-family: poppins;
+    letter-spacing: 1px;
+}
+.footerEmail h5{
+    color: $purple;
+    font-family: poppins;
+    letter-spacing: 1px;
 }
