@@ -29,3 +29,20 @@
     align-items: center;
     padding: 0px 0px 25px 0px;
 }
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 500px) {
+    .galleryThumbs h6{
+        font-family: poppins;
+        font-weight: 600;
+        color: $purple;
+        letter-spacing: 1px;
+        margin-bottom: 25px;
+    }
+    .bottomText h6{
+        margin-bottom: 0px;
+    }
+}

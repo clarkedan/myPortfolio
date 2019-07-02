@@ -3,7 +3,7 @@
     // border: solid 3px $orange;
 }
 .galleryHeader {
-    border-bottom: solid 2px $orange;
+    border-bottom: solid 3px $orange;
 }
 .galleryHeader h4 {
     color: $teal;
@@ -34,4 +34,13 @@
 .galleryImage img{
     width: 100%;
     height: auto;
+}
+.galleryBody a{
+    text-decoration: none; 
+}
+.link p{
+    color: $purple;
+}
+.link p:hover{
+    opacity: 0.75;
 }

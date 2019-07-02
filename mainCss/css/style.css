@@ -13,7 +13,7 @@ html, body {
 .myNav {
   background-color: #FFFDFA;
   border-bottom: solid 4px #F0CA67;
-  padding: 20px 15px;
+  padding: 20px 0px;
   position: fixed;
   z-index: 1; }
 
@@ -40,9 +40,30 @@ html, body {
   letter-spacing: 1px;
   cursor: pointer; }
 
+.navBarRight h5 {
+  display: none; }
+
 .navBarLeftPortfolio {
   color: #A487AE; }
 
+@media only screen and (max-width: 500px) {
+  .navBarLeft h4 {
+    font-size: 1.3rem; }
+
+  .navBarRight h4 {
+    font-size: 1.3rem; }
+
+  .navBarRight h4 {
+    display: none; }
+
+  .navBarRight h5 {
+    display: block;
+    margin-bottom: 0px;
+    font-family: 'Oswald';
+    color: #5F9BA1;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer; } }
 .galleryContain {
   max-width: 1300px; }
 
@@ -74,10 +95,20 @@ html, body {
   align-items: center;
   padding: 0px 0px 25px 0px; }
 
+@media only screen and (max-width: 500px) {
+  .galleryThumbs h6 {
+    font-family: poppins;
+    font-weight: 600;
+    color: #A487AE;
+    letter-spacing: 1px;
+    margin-bottom: 25px; }
+
+  .bottomText h6 {
+    margin-bottom: 0px; } }
 .myFooterContain {
   background-color: #FFFDFA;
   border-top: solid 4px #F0CA67;
-  padding: 20px 15px; }
+  padding: 20px 0px; }
 
 .myFooter {
   margin: 0 auto;
@@ -119,11 +150,31 @@ html, body {
   font-family: poppins;
   letter-spacing: 1px; }
 
+@media only screen and (max-width: 545px) {
+  .myFooter {
+    display: flex;
+    flex-direction: column; }
+
+  .myFooterRight {
+    text-align: left; }
+
+  .myFooterLeft {
+    padding-bottom: 20px; }
+
+  .footerContact h4 {
+    font-size: 1.3rem; }
+
+  .footerPhone h5 {
+    font-size: 1.2rem; }
+
+  .footerEmail h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0px; } }
 .modalGallery {
   background-color: #FFFDFA; }
 
 .galleryHeader {
-  border-bottom: solid 2px #F0CA67; }
+  border-bottom: solid 3px #F0CA67; }
 
 .galleryHeader h4 {
   color: #5F9BA1;
@@ -153,5 +204,14 @@ html, body {
 .galleryImage img {
   width: 100%;
   height: auto; }
+
+.galleryBody a {
+  text-decoration: none; }
+
+.link p {
+  color: #A487AE; }
+
+.link p:hover {
+  opacity: 0.75; }
 
 /*# sourceMappingURL=style.css.map */

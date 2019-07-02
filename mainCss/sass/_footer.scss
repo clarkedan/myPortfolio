@@ -42,7 +42,7 @@
 .myFooterContain{
     background-color: $white;
     border-top: solid 4px $orange;
-    padding: 20px 15px;
+    padding: 20px 0px;
 }
 .myFooter{
     margin: 0 auto;
@@ -83,4 +83,31 @@
     color: $purple;
     font-family: poppins;
     letter-spacing: 1px;
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 545px) {
+    .myFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .myFooterRight{
+        text-align: left;
+    }
+    .myFooterLeft{
+        padding-bottom: 20px;
+    }
+    .footerContact h4{
+        font-size: 1.3rem;
+    }
+    .footerPhone h5{
+        font-size: 1.2rem;
+    }
+    .footerEmail h5{
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+    }
 }
