@@ -1,6 +1,11 @@
 .modalGallery {
     background-color: $white;
 }
+.galleryWidth{
+    max-width: 1300px;
+    // padding-left: 15px;
+    // padding-right: 15px;
+}
 .galleryHeader {
     background-color: #f8f4ed;
     border-bottom: solid 3px $orange;
@@ -10,7 +15,6 @@
     font-family: poppins;
     font-weight: 400;
     letter-spacing: 1px;
-    
 }
 .close {
     text-shadow: none;
@@ -44,4 +48,19 @@
 }
 .link p:hover{
     opacity: 0.75;
+}
+.galleryGap{
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width : 1024px) {
+    .galleryWidth{
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .galleryWidth{
+        max-width: 650px;
+    }
 }
