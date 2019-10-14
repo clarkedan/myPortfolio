@@ -31,15 +31,19 @@
 }
 
 @media only screen and (max-width : 768px) {
-
+    .galleryThumbs h6{
+        margin-bottom: 25px;
+    }
+    .galleryOne{
+        padding: 95px 0px 0px 0px;
+    }
+    .galleryTwo{
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 @media only screen and (max-width : 500px) {
     .galleryThumbs h6{
-        font-family: poppins;
-        font-weight: 600;
-        color: $purple;
-        letter-spacing: 1px;
         margin-bottom: 25px;
     }
     .bottomText h6{
